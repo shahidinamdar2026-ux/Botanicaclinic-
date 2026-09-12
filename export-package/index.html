@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Botanica Dental Clinic | Narayangaon, Pune</title>
+  <meta name="description" content="Premier fear-free dental sanctuary and aesthetic smile design in Narayangaon, Pune. Direct WhatsApp booking at 7378671779, transparent treatment plans, and gentle specialist care." />
+  
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg" />
+  <link rel="stylesheet" href="style.css" />
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <!-- Ambient Glow Background -->
+  <div class="bg-ambient"></div>
+
+  <!-- Top Announcement Bar -->
+  <div class="top-bar">
+    <div class="container">
+      <div class="top-bar-left">
+        <span>📍 Narayangaon, Pune, Maharashtra 410504</span>
+        <span>•</span>
+        <span style="color: #34d399;">● Painless Anesthesia & 3D Scans</span>
+      </div>
+      <div class="top-bar-right">
+        <span>Concierge WhatsApp: <strong style="color: #ffffff;">7378671779</strong></span>
+        <span>•</span>
+        <span style="color: #f5d5a8;">MSDC Registered Dental Clinic</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Navigation -->
+  <header class="navbar">
+    <div class="container">
+      <a href="#" class="logo-wrap">
+        <img src="images/logo.svg" alt="Botanica Dental Clinic" class="logo-img" />
+        <div>
+          <div class="logo-title">Botanica Dental</div>
+          <div class="logo-subtitle">Sanctuary · Narayangaon, Pune</div>
+        </div>
+      </a>
+
+      <ul class="nav-links">
+        <li><a href="#services" class="nav-link">Treatments</a></li>
+        <li><a href="#estimator" class="nav-link">Cost Estimator</a></li>
+        <li><a href="#specialists" class="nav-link">Specialists</a></li>
+        <li><a href="#faq" class="nav-link">Patient FAQ</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="tel:7378671779" class="btn btn-glass" title="Direct Phone Call">
+          📞 7378671779
+        </a>
+        <button onclick="openWhatsApp('Hello Botanica Dental, I would like to book a dental consultation in Narayangaon.')" class="btn btn-whatsapp">
+          💬 Book WhatsApp
+        </button>
+        <button id="mobileMenuBtn" class="mobile-menu-btn" aria-label="Toggle menu">
+          ☰
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div id="mobileDrawer" class="mobile-drawer">
+    <a href="#services">Dental Treatments</a>
+    <a href="#estimator">Treatment Cost Estimator</a>
+    <a href="#specialists">Clinical Specialists</a>
+    <a href="#faq">Patient FAQ</a>
+    <a href="#contact">Location & Contact</a>
+    <div style="padding-top: 0.5rem; display: flex; flex-direction: column; gap: 0.75rem;">
+      <button onclick="openWhatsApp('Hello, I would like to book an appointment at Botanica Dental Clinic, Narayangaon.')" class="btn btn-whatsapp" style="width: 100%;">
+        💬 Book Now: 7378671779
+      </button>
+      <a href="tel:7378671779" class="btn btn-glass" style="width: 100%; text-align: center;">
+        📞 Call Clinic: 7378671779
+      </a>
+      <button onclick="openLegalModal('privacy')" style="background: none; border: none; color: #a8a29e; text-align: left; font-size: 0.85rem; padding: 0.5rem 0; cursor: pointer;">
+        🔒 Privacy Policy
+      </button>
+      <button onclick="openLegalModal('terms')" style="background: none; border: none; color: #a8a29e; text-align: left; font-size: 0.85rem; padding: 0.5rem 0; cursor: pointer;">
+        📜 Terms & Conditions
+      </button>
+      <button onclick="openLegalModal('cookies')" style="background: none; border: none; color: #a8a29e; text-align: left; font-size: 0.85rem; padding: 0.5rem 0; cursor: pointer;">
+        🍪 Cookie Preferences
+      </button>
+    </div>
+  </div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div>
+          <div class="chip-gold">
+            <span>✨ Premier Fear-Free Dental Studio</span>
+            <span>•</span>
+            <span style="color: #ffffff;">Narayangaon, Pune</span>
+          </div>
+
+          <h1 class="hero-title">
+            Quiet Luxury & Botanical Calm for Your <span class="hero-title-highlight">Natural Smile</span>
+          </h1>
+
+          <p class="hero-lead">
+            Experience gentle, fear-free dental wellness in Narayangaon. We blend computer-guided painless anesthesia, 3D intraoral digital scans, and artistic smile design in a tranquil clinical environment.
+          </p>
+
+          <div class="hero-cta-group">
+            <button onclick="openWhatsApp('Hello Botanica Dental, I would like to reserve a Welcome Assessment at your Narayangaon clinic.')" class="btn btn-whatsapp" style="font-size: 1rem; padding: 0.9rem 1.6rem;">
+              💬 Book Appointment: 7378671779
+            </button>
+            <a href="tel:7378671779" class="btn btn-glass" style="font-size: 1rem; padding: 0.9rem 1.6rem;">
+              📞 Call: 7378671779
+            </a>
+          </div>
+
+          <div class="hero-stats">
+            <div>
+              <div class="hero-stat-val">4.9 / 5</div>
+              <div class="hero-stat-label">1,200+ Verified Pune & Narayangaon Patients</div>
+            </div>
+            <div>
+              <div class="hero-stat-val">100%</div>
+              <div class="hero-stat-label">Computerized Painless Anesthesia Protocol</div>
+            </div>
+            <div>
+              <div class="hero-stat-val">14+ Yrs</div>
+              <div class="hero-stat-label">Master Clinical Director Experience</div>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <div class="hero-card">
+            <img src="images/hero-clinic.jpg" alt="Botanica Dental Sanctuary Interior" />
+            <div class="hero-card-overlay">
+              <div class="hero-card-badge">
+                <span class="pulse-dot"></span>
+                <span>Private Clinical Suite · Narayangaon, Pune</span>
+              </div>
+              <h3 style="font-family: var(--font-serif); font-size: 1.15rem; margin-bottom: 0.25rem;">
+                Comprehensive Welcome Oral Health Exam
+              </h3>
+              <p style="font-size: 0.8rem; color: #a8a29e; margin-bottom: 1rem;">
+                Full digital radiographs, intraoral 3D scan, gum health mapping, and painless cleaning consultation.
+              </p>
+              <div style="display: flex; justify-content: space-between; align-items: center;">
+                <span style="font-family: var(--font-serif); font-weight: 700; color: #f5d5a8; font-size: 1.1rem;">
+                  From ₹500
+                </span>
+                <button onclick="openWhatsApp('Hello Botanica Dental, I would like to book a Welcome Assessment at Narayangaon.')" class="btn btn-whatsapp" style="padding: 0.5rem 1rem; font-size: 0.8rem;">
+                  Book on WhatsApp
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Dental Treatments Section -->
+  <section id="services" class="section" style="background: rgba(14, 17, 26, 0.5);">
+    <div class="container">
+      <div class="section-header">
+        <div class="chip-gold">Clinical Offerings</div>
+        <h2 class="section-title">Crafted for Total Comfort & Aesthetic Balance</h2>
+        <p class="section-subtitle">
+          Transparent pricing in Indian Rupees (₹), painless procedures, and biological dental materials.
+        </p>
+      </div>
+
+      <div class="services-grid">
+        <!-- Service 1 -->
+        <div class="service-card">
+          <div>
+            <div class="service-header">
+              <div class="service-icon">🌿</div>
+              <span class="service-pain-badge">Painless</span>
+            </div>
+            <h3 class="service-name">Deep Ultrasonic Cleaning & Airflow</h3>
+            <p class="service-desc">Soothing preventative biofilm removal with low-dose digital radiographs, gentle ultrasonic scaling, and airflow salt-micro stain polishing.</p>
+            <ul class="service-features">
+              <li>Low-dose digital radiographs</li>
+              <li>Airflow salt-micro polishing</li>
+              <li>Enamel remineralization varnish</li>
+            </ul>
+          </div>
+          <div class="service-footer">
+            <div class="service-price">₹500 <span>INR</span></div>
+            <button onclick="openWhatsApp('Hello, I would like to book an appointment for Deep Ultrasonic Cleaning (₹500) at Botanica Dental Clinic, Narayangaon.')" class="btn btn-whatsapp" style="font-size: 0.8rem; padding: 0.5rem 0.85rem;">
+              💬 Book Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="service-card">
+          <div>
+            <div class="service-header">
+              <div class="service-icon">✨</div>
+              <span class="service-pain-badge">Zero Sensitivity</span>
+            </div>
+            <h3 class="service-name">Botanical Cold-Laser Teeth Whitening</h3>
+            <p class="service-desc">Advanced in-chair cold-light laser activation paired with botanical desensitizing serums. Lifts up to 8 shades in a single relaxing hour.</p>
+            <ul class="service-features">
+              <li>Instant results in 1 visit</li>
+              <li>Enamel-safe pH neutral gel</li>
+              <li>Custom home care tray included</li>
+            </ul>
+          </div>
+          <div class="service-footer">
+            <div class="service-price">₹3,500 <span>INR</span></div>
+            <button onclick="openWhatsApp('Hello, I would like to book an appointment for Botanical Teeth Whitening (₹3,500) at Botanica Dental Clinic, Narayangaon.')" class="btn btn-whatsapp" style="font-size: 0.8rem; padding: 0.5rem 0.85rem;">
+              💬 Book Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="service-card">
+          <div>
+            <div class="service-header">
+              <div class="service-icon">💎</div>
+              <span class="service-pain-badge">Minimally Invasive</span>
+            </div>
+            <h3 class="service-name">Artisan Porcelain Veneers</h3>
+            <p class="service-desc">Digital Smile Design (DSD) simulation allowing you to preview your smile before ultra-thin 0.3mm handcrafted ceramic layering.</p>
+            <ul class="service-features">
+              <li>3D digital preview mock-up</li>
+              <li>Hand-shaded artisan ceramics</li>
+              <li>10-year clinic warranty</li>
+            </ul>
+          </div>
+          <div class="service-footer">
+            <div class="service-price">₹7,500 <span>/ tooth</span></div>
+            <button onclick="openWhatsApp('Hello, I would like to book an appointment for Artisan Porcelain Veneers (from ₹7,500) at Botanica Dental Clinic, Narayangaon.')" class="btn btn-whatsapp" style="font-size: 0.8rem; padding: 0.5rem 0.85rem;">
+              💬 Book Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="service-card">
+          <div>
+            <div class="service-header">
+              <div class="service-icon">🪄</div>
+              <span class="service-pain-badge">Comfortable Wear</span>
+            </div>
+            <h3 class="service-name">Clear Aligners Orthodontics</h3>
+            <p class="service-desc">Virtually invisible custom transparent aligners. Straighten teeth comfortably with no dietary restrictions and fewer visits.</p>
+            <ul class="service-features">
+              <li>iTero 5D outcome simulator</li>
+              <li>Discreet transparent wear</li>
+              <li>Complimentary retainers included</li>
+            </ul>
+          </div>
+          <div class="service-footer">
+            <div class="service-price">₹35,000 <span>starting</span></div>
+            <button onclick="openWhatsApp('Hello, I would like to book a consultation for Clear Aligners (from ₹35,000) at Botanica Dental Clinic, Narayangaon.')" class="btn btn-whatsapp" style="font-size: 0.8rem; padding: 0.5rem 0.85rem;">
+              💬 Book Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Service 5 -->
+        <div class="service-card">
+          <div>
+            <div class="service-header">
+              <div class="service-icon">🌱</div>
+              <span class="service-pain-badge">Guided Surgery</span>
+            </div>
+            <h3 class="service-name">3D Guided Dental Implant</h3>
+            <p class="service-desc">Computer-guided surgical placement of medical-grade titanium fixture and ceramic zirconia crown. Matches your natural bite permanently.</p>
+            <ul class="service-features">
+              <li>CBCT 3D guided precision</li>
+              <li>Lifetime implant body guarantee</li>
+              <li>Painless computer anesthesia</li>
+            </ul>
+          </div>
+          <div class="service-footer">
+            <div class="service-price">₹18,500 <span>starting</span></div>
+            <button onclick="openWhatsApp('Hello, I would like to book an appointment for Dental Implants (from ₹18,500) at Botanica Dental Clinic, Narayangaon.')" class="btn btn-whatsapp" style="font-size: 0.8rem; padding: 0.5rem 0.85rem;">
+              💬 Book Now
+            </button>
+          </div>
+        </div>
+
+        <!-- Service 6 -->
+        <div class="service-card">
+          <div>
+            <div class="service-header">
+              <div class="service-icon">🔬</div>
+              <span class="service-pain-badge">Ache Relief</span>
+            </div>
+            <h3 class="service-name">Microscope Root Canal Treatment</h3>
+            <p class="service-desc">Gentle infected tissue removal under high magnification with rotary nickel-titanium instrumentation. Relieves pain instantly.</p>
+            <ul class="service-features">
+              <li>25x surgical magnification</li>
+              <li>Painless single-visit in 90% cases</li>
+              <li>Immediate ache alleviation</li>
+            </ul>
+          </div>
+          <div class="service-footer">
+            <div class="service-price">₹2,500 <span>starting</span></div>
+            <button onclick="openWhatsApp('Hello, I would like to book a Microscope Root Canal treatment (from ₹2,500) at Botanica Dental Clinic, Narayangaon.')" class="btn btn-whatsapp" style="font-size: 0.8rem; padding: 0.5rem 0.85rem;">
+              💬 Book Now
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Treatment Cost Estimator -->
+  <section id="estimator" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="chip-gold">Custom Smile Planner</div>
+        <h2 class="section-title">Transparent Cost Estimator</h2>
+        <p class="section-subtitle">
+          Select treatments to estimate your investment in Indian Rupees (₹) with zero surprises and flexible monthly EMI options.
+        </p>
+      </div>
+
+      <div class="estimator-box">
+        <div class="estimator-items">
+          <div class="estimator-item" data-price="500">
+            <div class="estimator-item-left">
+              <input type="checkbox" class="estimator-checkbox" checked />
+              <div>
+                <div class="estimator-item-title">Deep Ultrasonic Cleaning & Airflow Polish</div>
+                <div class="estimator-item-cat">Preventative Health · 1 visit</div>
+              </div>
+            </div>
+            <div class="estimator-item-price">₹500</div>
+          </div>
+
+          <div class="estimator-item" data-price="3500">
+            <div class="estimator-item-left">
+              <input type="checkbox" class="estimator-checkbox" checked />
+              <div>
+                <div class="estimator-item-title">Botanical Cold-Laser Teeth Whitening</div>
+                <div class="estimator-item-cat">Cosmetic Brightening · 1 visit (60 min)</div>
+              </div>
+            </div>
+            <div class="estimator-item-price">₹3,500</div>
+          </div>
+
+          <div class="estimator-item" data-price="42000">
+            <div class="estimator-item-left">
+              <input type="checkbox" class="estimator-checkbox" />
+              <div>
+                <div class="estimator-item-title">Invisalign® / Clear Aligners Treatment</div>
+                <div class="estimator-item-cat">Orthodontic Straightening · Complete Care</div>
+              </div>
+            </div>
+            <div class="estimator-item-price">₹42,000</div>
+          </div>
+
+          <div class="estimator-item" data-price="30000">
+            <div class="estimator-item-left">
+              <input type="checkbox" class="estimator-checkbox" />
+              <div>
+                <div class="estimator-item-title">Artisan Porcelain Veneers (4 front teeth)</div>
+                <div class="estimator-item-cat">Smile Reconstruction · 2 visits</div>
+              </div>
+            </div>
+            <div class="estimator-item-price">₹30,000</div>
+          </div>
+
+          <div class="estimator-item" data-price="18500">
+            <div class="estimator-item-left">
+              <input type="checkbox" class="estimator-checkbox" />
+              <div>
+                <div class="estimator-item-title">Computer-Guided 3D Dental Implant</div>
+                <div class="estimator-item-cat">Permanent Tooth Replacement · Lifetime Warranty</div>
+              </div>
+            </div>
+            <div class="estimator-item-price">₹18,500</div>
+          </div>
+
+          <div class="estimator-item" data-price="2500">
+            <div class="estimator-item-left">
+              <input type="checkbox" class="estimator-checkbox" />
+              <div>
+                <div class="estimator-item-title">Rotary Micro-Endodontic Root Canal</div>
+                <div class="estimator-item-cat">Pain Relief & Tooth Preservation</div>
+              </div>
+            </div>
+            <div class="estimator-item-price">₹2,500</div>
+          </div>
+        </div>
+
+        <div class="estimator-summary">
+          <div>
+            <div style="font-size: 0.8rem; color: #a8a29e; text-transform: uppercase; letter-spacing: 0.05em;">Estimated Investment</div>
+            <div id="estimatorTotalPrice" class="estimator-total-price">₹4,000</div>
+            <div id="estimatorEmi" class="estimator-emi">
+              *Flexible EMI options available starting from <strong style="color: #f5d5a8;">₹333/month</strong>.
+            </div>
+            <p style="font-size: 0.8rem; color: #a8a29e; line-height: 1.5; margin-bottom: 1.5rem;">
+              Includes complimentary 3D intraoral digital scans, comprehensive diagnostic mapping, and itemized transparent treatment proposal with no hidden clinic charges.
+            </p>
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <button id="bookEstimatorBtn" class="btn btn-whatsapp" style="width: 100%; padding: 0.9rem;">
+              💬 Book Selected Plan on WhatsApp
+            </button>
+            <a href="tel:7378671779" class="btn btn-glass" style="width: 100%; padding: 0.75rem;">
+              📞 Call: 7378671779
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Clinical Specialists -->
+  <section id="specialists" class="section" style="background: rgba(14, 17, 26, 0.5);">
+    <div class="container">
+      <div class="section-header">
+        <div class="chip-gold">Our Clinical Faculty</div>
+        <h2 class="section-title">Master Clinicians in Narayangaon, Pune</h2>
+        <p class="section-subtitle">
+          Distinguished dental practitioners dedicated to fear-free treatment and aesthetic smile excellence.
+        </p>
+      </div>
+
+      <div class="doctors-grid">
+        <!-- Doctor 1 -->
+        <div class="doctor-card">
+          <img src="images/dr-cheryl-tan.jpg" alt="Dr. Cheryl Tan" class="doctor-img" />
+          <div class="doctor-info">
+            <h3 class="doctor-name">Dr. Cheryl Tan</h3>
+            <div class="doctor-title">Clinical Director & Aesthetic Dentist</div>
+            <div class="doctor-degrees">BDS, MDS Aesthetic Dentistry (King's College London)</div>
+            <p class="doctor-bio">Renowned for her gentle touch and artistic eye, Dr. Tan combines international dental aesthetic training with botanical calm to make smile transformations effortless in Narayangaon, Pune.</p>
+            <button onclick="openWhatsApp('Hello, I would like to book a smile consultation with Dr. Cheryl Tan in Narayangaon.')" class="btn btn-whatsapp" style="width: 100%; font-size: 0.8rem; padding: 0.6rem;">
+              💬 Consult Dr. Tan
+            </button>
+          </div>
+        </div>
+
+        <!-- Doctor 2 -->
+        <div class="doctor-card">
+          <img src="images/dr-julian-rivera.jpg" alt="Dr. Julian Rivera" class="doctor-img" />
+          <div class="doctor-info">
+            <h3 class="doctor-name">Dr. Julian Rivera</h3>
+            <div class="doctor-title">Senior Specialist Orthodontist</div>
+            <div class="doctor-degrees">BDS, MDS Orthodontics, Invisalign® Diamond Provider</div>
+            <p class="doctor-bio">Specializing in invisible orthodontics and facial symmetry, Dr. Rivera crafts harmonious, confidence-boosting smiles for patients across Pune district.</p>
+            <button onclick="openWhatsApp('Hello, I would like to book an orthodontic aligner consultation with Dr. Julian Rivera in Narayangaon.')" class="btn btn-whatsapp" style="width: 100%; font-size: 0.8rem; padding: 0.6rem;">
+              💬 Consult Dr. Rivera
+            </button>
+          </div>
+        </div>
+
+        <!-- Doctor 3 -->
+        <div class="doctor-card">
+          <img src="images/dr-meng-to.jpg" alt="Dr. Meng To" class="doctor-img" />
+          <div class="doctor-info">
+            <h3 class="doctor-name">Dr. Meng To</h3>
+            <div class="doctor-title">Restorative & Implant Specialist</div>
+            <div class="doctor-degrees">BDS, MDS (Oral Surgery & Implants), Dip. Implantology</div>
+            <p class="doctor-bio">Pioneer of minimally invasive surgical protocols in Pune & Maharashtra. Believes modern dental care should eliminate patient fear entirely.</p>
+            <button onclick="openWhatsApp('Hello, I would like to book an implant consultation with Dr. Meng To in Narayangaon.')" class="btn btn-whatsapp" style="width: 100%; font-size: 0.8rem; padding: 0.6rem;">
+              💬 Consult Dr. Meng To
+            </button>
+          </div>
+        </div>
+
+        <!-- Doctor 4 -->
+        <div class="doctor-card">
+          <img src="images/dr-aileen-vance.jpg" alt="Dr. Aileen Vance" class="doctor-img" />
+          <div class="doctor-info">
+            <h3 class="doctor-name">Dr. Aileen Vance</h3>
+            <div class="doctor-title">Pediatric Dental Specialist</div>
+            <div class="doctor-degrees">BDS, MDS Paediatric & Preventive Dentistry</div>
+            <p class="doctor-bio">Warm, patient, and beloved by anxious children. Dr. Vance creates unforgettable positive memories so children grow up loving dental visits.</p>
+            <button onclick="openWhatsApp('Hello, I would like to book a gentle pediatric visit with Dr. Aileen Vance in Narayangaon.')" class="btn btn-whatsapp" style="width: 100%; font-size: 0.8rem; padding: 0.6rem;">
+              💬 Consult Dr. Vance
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Patient FAQ -->
+  <section id="faq" class="section">
+    <div class="container">
+      <div class="section-header">
+        <div class="chip-gold">Common Queries</div>
+        <h2 class="section-title">Patient Care & Guidance</h2>
+        <p class="section-subtitle">Everything you need to know about our gentle dentistry in Narayangaon, Pune.</p>
+      </div>
+
+      <div class="faq-list">
+        <div class="faq-item open">
+          <button class="faq-question">
+            <span>Is treatment truly painless? How does your anesthesia work?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            Yes, completely. We utilize computerized, single-tooth anesthesia wands that administer anesthetic at a controlled pressure below patient sensory thresholds. Most patients report feeling nothing more than a gentle touch, eliminating needle phobia.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Where is your clinic located in Narayangaon, Pune?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            Our clinic is situated along Pune-Nashik Highway, Near the Bus Station in Narayangaon, Pune, Maharashtra 410504. Dedicated patient parking and wheelchair accessibility are available.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>How do I book an appointment directly?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            You can immediately connect with our clinic concierge via WhatsApp at <strong>7378671779</strong> or by placing a direct phone call to <strong>7378671779</strong>. Same-day emergency appointments are prioritized.
+          </div>
+        </div>
+
+        <div class="faq-item">
+          <button class="faq-question">
+            <span>Do you offer 0% EMI or flexible installment payments?</span>
+            <span class="faq-icon">+</span>
+          </button>
+          <div class="faq-answer">
+            Yes. We provide transparent, itemized quotes before treatment commences. For restorative and smile design plans (such as Invisalign® aligners, dental implants, or porcelain veneers), we offer flexible 0% interest EMI options across 3 to 12 months.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <div class="logo-wrap" style="margin-bottom: 1rem;">
+            <img src="images/logo.svg" alt="Botanica Dental" class="logo-img" />
+            <div>
+              <div class="logo-title">Botanica Dental Clinic</div>
+              <div class="logo-subtitle">Sanctuary · Narayangaon, Pune</div>
+            </div>
+          </div>
+          <p class="footer-address">
+            A serene retreat for gentle dental health and artistic smile transformation in Narayangaon, Pune. Powered by computer-guided painless anesthesia, biological materials, and experienced master clinicians.
+          </p>
+          <div style="display: flex; gap: 0.75rem; margin-top: 1rem;">
+            <button onclick="openWhatsApp()" class="btn btn-whatsapp" style="font-size: 0.8rem; padding: 0.5rem 1rem;">
+              💬 WhatsApp: 7378671779
+            </button>
+            <a href="tel:7378671779" class="btn btn-glass" style="font-size: 0.8rem; padding: 0.5rem 1rem;">
+              📞 Call: 7378671779
+            </a>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <h4>Treatments</h4>
+          <ul class="footer-links">
+            <li><a href="#services">Ultrasonic Biofilm Cleaning</a></li>
+            <li><a href="#services">Cold-Laser Teeth Whitening</a></li>
+            <li><a href="#services">Artisan Porcelain Veneers</a></li>
+            <li><a href="#services">Invisalign® Clear Aligners</a></li>
+            <li><a href="#services">3D Guided Dental Implants</a></li>
+            <li><a href="#services">Microscopic Root Canal</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Clinical Sanctuary</h4>
+          <ul class="footer-links">
+            <li><a href="#specialists">Our Dentists & Specialists</a></li>
+            <li><a href="#estimator">Treatment Cost Calculator</a></li>
+            <li><a href="#faq">Patient Guidance & FAQ</a></li>
+            <li><a href="javascript:void(0)" onclick="openLegalModal('privacy')">Privacy Policy</a></li>
+            <li><a href="javascript:void(0)" onclick="openLegalModal('terms')">Terms & Conditions</a></li>
+            <li><a href="javascript:void(0)" onclick="openLegalModal('cookies')">Cookie Consent</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Location & Hours</h4>
+          <p class="footer-address">
+            📍 Pune-Nashik Highway, Near Bus Station, Narayangaon, Pune, Maharashtra 410504
+          </p>
+          <div style="font-size: 0.8rem; color: #a8a29e; line-height: 1.6;">
+            <div>Mon – Sat: 9:00 AM – 8:30 PM</div>
+            <div>Sunday: 10:00 AM – 4:00 PM</div>
+            <div style="margin-top: 0.5rem; color: #34d399;">● 24/7 Dental Emergency On-Call</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>© <script>document.write(new Date().getFullYear())</script> Botanica Dental Clinic. Narayangaon, Pune, Maharashtra 410504.</div>
+        <div style="display: flex; gap: 1rem; align-items: center;">
+          <a href="javascript:void(0)" onclick="openLegalModal('privacy')" style="color: #a8a29e; text-decoration: none;">Privacy Policy</a>
+          <span>•</span>
+          <a href="javascript:void(0)" onclick="openLegalModal('terms')" style="color: #a8a29e; text-decoration: none;">Terms & Conditions</a>
+          <span>•</span>
+          <a href="javascript:void(0)" onclick="openLegalModal('cookies')" style="color: #a8a29e; text-decoration: none;">Cookie Consent</a>
+          <span>•</span>
+          <span style="color: #f5d5a8;">MSDC / DCI Registered</span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Legal & Privacy Modal -->
+  <div id="legalModal" class="modal-backdrop">
+    <div class="modal-box">
+      <div class="modal-header">
+        <h3 class="modal-title">Clinical Compliance & Policies</h3>
+        <button id="closeLegalModal" class="modal-close">&times;</button>
+      </div>
+
+      <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.1); padding: 0 1.5rem;">
+        <button class="legal-tab-btn active" data-tab="privacy" style="background: none; border: none; padding: 0.85rem 1rem; font-weight: 600; font-size: 0.85rem; cursor: pointer; color: #f5d5a8; border-bottom: 2px solid #e5b882;">
+          Privacy Policy
+        </button>
+        <button class="legal-tab-btn" data-tab="terms" style="background: none; border: none; padding: 0.85rem 1rem; font-weight: 600; font-size: 0.85rem; cursor: pointer; color: #a8a29e;">
+          Terms & Conditions
+        </button>
+        <button class="legal-tab-btn" data-tab="cookies" style="background: none; border: none; padding: 0.85rem 1rem; font-weight: 600; font-size: 0.85rem; cursor: pointer; color: #a8a29e;">
+          Cookie Consent
+        </button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Privacy -->
+        <div id="legal-content-privacy" class="legal-tab-content">
+          <h4 style="font-size: 1rem; margin-bottom: 0.5rem; color: #ffffff;">Patient Privacy & Data Protection</h4>
+          <p style="font-size: 0.85rem; color: #a8a29e; line-height: 1.6; margin-bottom: 1rem;">
+            Botanica Dental Clinic upholds stringent medical data protection standards under prevailing health privacy norms and Dental Council of India (DCI) ethical clinical guidelines.
+          </p>
+          <ul style="font-size: 0.8rem; color: #a8a29e; line-height: 1.6; padding-left: 1.25rem;">
+            <li>Zero Spam & Zero Email mandate: All reservations are managed directly via encrypted WhatsApp concierge (7378671779) and verified phone lines.</li>
+            <li>Intraoral 3D scans and radiograph files are encrypted using AES-256 medical data storage.</li>
+            <li>Your medical history is never shared or sold to third parties under any circumstances.</li>
+          </ul>
+        </div>
+
+        <!-- Terms -->
+        <div id="legal-content-terms" class="legal-tab-content" style="display: none;">
+          <h4 style="font-size: 1rem; margin-bottom: 0.5rem; color: #ffffff;">Terms of Consultation & Treatment</h4>
+          <p style="font-size: 0.85rem; color: #a8a29e; line-height: 1.6; margin-bottom: 1rem;">
+            Estimates provided via our digital Smile Estimator or online service catalog represent indicative starting fees in Indian Rupees (₹ INR). Exact fees depend on individual anatomical complexity, 3D intraoral findings, and clinical diagnosis finalized during in-person specialist consultation in Narayangaon, Pune.
+          </p>
+          <ul style="font-size: 0.8rem; color: #a8a29e; line-height: 1.6; padding-left: 1.25rem;">
+            <li>We request at least 4 hours notice for rescheduling consultations.</li>
+            <li>Itemized pricing schedules are provided prior to any procedural commencement.</li>
+            <li>Treatments are performed exclusively by registered dental practitioners holding active MSDC / DCI registrations.</li>
+          </ul>
+        </div>
+
+        <!-- Cookies -->
+        <div id="legal-content-cookies" class="legal-tab-content" style="display: none;">
+          <h4 style="font-size: 1rem; margin-bottom: 0.5rem; color: #ffffff;">Cookie Consent & Storage Preferences</h4>
+          <p style="font-size: 0.85rem; color: #a8a29e; line-height: 1.6; margin-bottom: 1rem;">
+            We use minimal browser cookies solely to preserve your treatment estimator plan selections and maintain your dark theme preferences across browsing sessions.
+          </p>
+          <button onclick="localStorage.setItem('botanica_cookie_preferences', JSON.stringify({accepted:true})); alert('Cookie preferences updated!'); document.getElementById('legalModal').classList.remove('open');" class="btn btn-whatsapp" style="font-size: 0.8rem; padding: 0.6rem 1.2rem;">
+            ✓ Save & Accept Preferences
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cookie Banner -->
+  <div id="cookieBanner" class="cookie-banner" style="display: none;">
+    <div style="display: flex; gap: 0.75rem; align-items: flex-start; margin-bottom: 0.75rem;">
+      <div style="font-size: 1.25rem;">🍪</div>
+      <div>
+        <div style="font-weight: 600; font-size: 0.85rem;">Cookie Consent & Privacy</div>
+        <div style="font-size: 0.75rem; color: #a8a29e; line-height: 1.4;">
+          We use functional cookies to remember your smile estimate selections and ensure smooth booking navigation.
+        </div>
+      </div>
+    </div>
+    <div style="display: flex; gap: 0.5rem;">
+      <button id="acceptCookiesBtn" class="btn btn-whatsapp" style="flex: 1; padding: 0.4rem; font-size: 0.75rem;">
+        Accept All
+      </button>
+      <button id="customizeCookiesBtn" class="btn btn-glass" style="flex: 1; padding: 0.4rem; font-size: 0.75rem;">
+        Preferences
+      </button>
+    </div>
+  </div>
+
+</body>
+</html>

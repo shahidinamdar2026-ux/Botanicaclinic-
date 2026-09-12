@@ -1,0 +1,6 @@
+{
+  "name": "Botanica Dental Clinic",
+  "description": "Comprehensive dental care & aesthetic smile sanctuary in Narayangaon, Pune with appointments, WhatsApp concierge (7378671779), transparent treatment planning, and experienced specialists.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
